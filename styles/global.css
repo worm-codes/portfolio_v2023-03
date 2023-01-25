@@ -1,0 +1,42 @@
+/* CUSTOM FONTS */
+@import url('./fonts/fonts.css');
+
+/* GLOBAL STYLES */
+body {
+  min-height: 100vh;
+  font-family: 'GT Eesti Text', sans-serif;
+}
+
+*::before,
+*,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+  font-variant-numeric: lining-nums;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+}

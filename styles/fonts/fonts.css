@@ -1,0 +1,73 @@
+/* GT EESTI DISPLAY */
+/* THIN - FONT WEIGHT 100 */
+@font-face {
+  font-family: 'GT Eesti Display';
+  src: url('./GT\ Eesti\ Display/GTEestiDisplay-Thin.ttf');
+  font-weight: 100;
+  font-style: normal;
+}
+/* LIGHT - FONT WEIGHT 300 */
+@font-face {
+  font-family: 'GT Eesti Display';
+  src: url('./GT\ Eesti\ Display/GTEestiDisplay-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+/* REGULAR - FONT WEIGHT 400 */
+@font-face {
+  font-family: 'GT Eesti Display';
+  src: url('./GT\ Eesti\ Display/GTEestiDisplay-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+/* MEDIUM - FONT WEIGHT 500 */
+@font-face {
+  font-family: 'GT Eesti Display';
+  src: url('./GT\ Eesti\ Display/GTEestiDisplay-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+/* BOLD - FONT WEIGHT 700 */
+@font-face {
+  font-family: 'GT Eesti Display';
+  src: url('./GT\ Eesti\ Display/GTEestiDisplay-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* GT EESTI TEXT */
+/* THIN - FONT WEIGHT 100 */
+@font-face {
+  font-family: 'GT Eesti Text';
+  src: url('./GT\ Eesti\ Text/GTEestiText-Thin.ttf');
+  font-weight: 100;
+  font-style: normal;
+}
+/* LIGHT - FONT WEIGHT 300 */
+@font-face {
+  font-family: 'GT Eesti Text';
+  src: url('./GT\ Eesti\ Text/GTEestiText-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+/* REGULAR - FONT WEIGHT 400 */
+@font-face {
+  font-family: 'GT Eesti Text';
+  src: url('./GT\ Eesti\ Text/GTEestiText-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+/* MEDIUM - FONT WEIGHT 500 */
+@font-face {
+  font-family: 'GT Eesti Text';
+  src: url('./GT\ Eesti\ Text/GTEestiText-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+/* BOLD - FONT WEIGHT 700 */
+@font-face {
+  font-family: 'GT Eesti Text';
+  src: url('./GT\ Eesti\ Text/GTEestiText-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
