@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import { Meta } from 'components';
 
 // import Footer from './Footer';
-// import Navbar from './Navbar';
+import Navbar from './Navbar';
 
 interface LayoutProps extends HTMLAttributes<HTMLDivElement> {
   children: React.ReactNode;
@@ -20,7 +20,7 @@ function Layout({ children, meta, ...props }: LayoutProps) {
         description={meta.description}
       />
       <StyledLayout {...props}>
-        {/* <Navbar /> */}
+        <Navbar />
         {children}
         {/* <Footer /> */}
       </StyledLayout>
@@ -31,5 +31,6 @@ function Layout({ children, meta, ...props }: LayoutProps) {
 export default Layout;
 
 const StyledLayout = styled.main`
+  background: url('./images/bg.jpeg');
   min-height: 100vh;
 `;
