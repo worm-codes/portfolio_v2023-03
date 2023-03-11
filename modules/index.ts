@@ -1,1 +1,1 @@
-export const index = {};
+export { default as HomePage } from './HomePage';
