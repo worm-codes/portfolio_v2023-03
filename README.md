@@ -3,7 +3,7 @@
 [Not Ready](#)
 
 ```javascript
-const bankPortalProject = {
+const portfolioProject = {
   Language: [Typescript],
   Style: [Styled - Components, Three.js],
   Code: [HTML, CSS, Eslint, Prettier],
