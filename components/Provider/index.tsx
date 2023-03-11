@@ -1,7 +1,5 @@
 import { ReactNode } from 'react';
 
-import ConfigProvider from './ConfigProvider';
-// import ReduxProvider from './ReduxProvider';
 import ThemeProvider from './ThemeProvider';
 
 interface ProviderProps {
@@ -9,13 +7,7 @@ interface ProviderProps {
 }
 
 function Provider({ children }: ProviderProps) {
-  return (
-    // <ReduxProvider>
-    <ConfigProvider>
-      <ThemeProvider>{children}</ThemeProvider>
-    </ConfigProvider>
-    // </ReduxProvider>
-  );
+  return <ThemeProvider>{children}</ThemeProvider>;
 }
 
 export default Provider;
